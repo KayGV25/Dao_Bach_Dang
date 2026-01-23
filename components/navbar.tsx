@@ -31,7 +31,7 @@ export function NavBar() {
   return (
     <nav
       ref={navRef}
-      className="fixed top-0 left-0 right-0 z-100 w-full flex flex-col"
+      className="fixed top-0 left-0 z-100 w-full flex flex-col"
     >
       <div className="w-full bg-primary px-4 py-2 flex justify-between items-center">
         <div className="flex gap-1">
