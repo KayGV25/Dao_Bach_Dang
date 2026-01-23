@@ -117,8 +117,12 @@ export function DesktopDropdown({
   return (
     <div className="hidden sm:block">
       <div
-        className={`py-3 px-7 flex origin-top transition-transform duration-200
-          ${isOpen ? 'scale-y-100' : 'scale-y-0'}
+        className={`
+          flex origin-top overflow-hidden
+          transition-all duration-200
+          ${isOpen
+            ? 'scale-y-100 opacity-100 py-3 px-7 pointer-events-auto'
+            : 'scale-y-0 opacity-0 py-0 px-0 max-h-0 pointer-events-none'}
         `}
       >
         {levels.map((levelData, levelIndex) => (
