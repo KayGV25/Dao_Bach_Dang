@@ -33,9 +33,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-clip`}
       >
         <NavBar/>
-        <div className="w-full bg-background">
-          {children}
-        </div>
+        <main className="pt-16 min-h-screen px-8">
+          <div className="w-full bg-background pt-4">
+            {children}
+          </div>
+        </main>
         <footer className="w-svw bg-primary px-8 py-4 flex">
           <div>
             asdfasdf
