@@ -36,12 +36,14 @@ export default async function NameHome({ params }: Props) {
   const paragraphs = content.general.split("\n")
 
   return (
-    <div className="flex flex-col w-full bg-background font-sans text-black gap-8">
-      <h1 className="text-4xl w-full font-bold">{content.title}</h1>
-      <div className='flex flex-col gap-4'>
-        {paragraphs.map((paragraph, index) => (
-          <SpecificBoldParagraphs text={paragraph} boldText={content.boldText} key={index}/>
-        ))}
+    <div className="px-14 py-8 max-w-6xl mx-auto">
+      <div className="flex flex-col w-full bg-background font-sans text-black gap-8 ">
+        <h1 className="text-4xl w-full font-bold">{content.title}</h1>
+        <div className='flex flex-col gap-4'>
+          {paragraphs.map((paragraph, index) => (
+            <SpecificBoldParagraphs text={paragraph} boldText={content.boldText} key={index}/>
+          ))}
+        </div>
       </div>
     </div>
   )
