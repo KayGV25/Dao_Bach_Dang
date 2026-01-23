@@ -3,17 +3,20 @@ export const DROPDOWN_CONTENT = {
   "Về Chúng Tôi": "/about",
   "Các Ngành": {
     "Ngành Ấu": {
+      "default": "/cub",
       "Sói Bạch Đằng": "/cub-bd",
       "Sói Vân Cừ": "/cub-vc",
       "Sói Thủy Nguyên": "/cub-tn",
       "Sói Nữ Bạch Đằng": "/cub-nbd"
     },
     "Ngành Thiếu": {
+      "default": "/sct",
       "Thiếu Bạch Đằng": "/sct-bd",
       "Thiếu Vân Cừ": "/sct-vc",
-      "Thiếu Nữ Bạch Đằng": "sct-nbd"
+      "Thiếu Nữ Bạch Đằng": "/sct-nbd"
     },
     "Ngành Kha": {
+      "default": "/vts",
       "Kha Bạch Đằng": "/vts-bd",
       "Kha Vân Cừ": "/vts-vc",
       "Kha Nữ Bạch Đằng": "/vts-nbd",
