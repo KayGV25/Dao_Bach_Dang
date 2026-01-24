@@ -33,7 +33,7 @@ export async function VerticalTimeline({ timeline }: VerticalTimelineProps) {
             {/* Line + Dot */}
             <div className="relative flex justify-center">
               {/* Vertical line */}
-              <div className="absolute inset-y-0 w-px bg-zinc-300" />
+              <div className="absolute inset-y-0 w-0.5 bg-primary" />
 
               {/* Dot */}
               <div className="relative z-10 mt-2 w-3 h-3 rounded-full bg-primary" />
@@ -65,7 +65,7 @@ export async function VerticalTimeline({ timeline }: VerticalTimelineProps) {
             {/* Line + Dot */}
             <div className="relative flex justify-center">
               {/* Vertical line */}
-              <div className="absolute inset-y-0 w-px bg-zinc-300" />
+              <div className="absolute inset-y-0 w-0.5 bg-primary" />
 
               {/* Dot */}
               <div className="relative z-10 mt-2.5 w-3 h-3 rounded-full bg-primary" />
