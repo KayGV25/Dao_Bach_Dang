@@ -30,15 +30,15 @@ export default function RootLayout({
     <html lang="vi">
       <body
         suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-clip`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
         <NavBar/>
-        <main className="pt-14 min-h-screen">
+        <main className="pt-14 min-h-screen pb-12">
           <div className="w-full bg-background">
             {children}
           </div>
         </main>
-        <footer className="w-svw bg-primary px-8 py-4 flex text-white">
+        <footer className="w-full bg-primary px-8 py-4 flex text-white">
           <div>
             asdfasdf
           </div>
