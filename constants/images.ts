@@ -7,7 +7,6 @@ export const RVS_IMAGES = [
     "/RVS/cc65ec028ed37b36111a017b6b3662e0.jpg",
     "/RVS/e7920ff78039129a6de533e2f5816b65.jpg",
     "/RVS/ed0ba6ae85575f16cf3579fac5c1f5ef.jpg",
-    "/RVS/IMG_1884(1).jpg",
     "/RVS/IMG_1884.jpg",
     "/RVS/IMG_1885.jpg",
     "/RVS/IMG_1886.jpg",
