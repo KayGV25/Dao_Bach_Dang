@@ -27,3 +27,69 @@ export const RVS_CONTENT: ContentLayout = {
     "general": "",
     "boldText": [""]
 }
+
+export const CUB_BD_CONTENT: ContentLayout = {
+    "title": "Bầy Bạch Đằng",
+    "general": "",
+    "boldText": [""]
+}
+
+export const CUB_VC_CONTENT: ContentLayout = {
+    "title": "Bầy Vân Cừ",
+    "general": "",
+    "boldText": [""]
+}
+
+export const CUB_NBD_CONTENT: ContentLayout = {
+    "title": "Bầy Nữ Bạch Đằng",
+    "general": "",
+    "boldText": [""]
+}
+
+export const CUB_TN_CONTENT: ContentLayout = {
+    "title": "Bầy Thủy Nguyên",
+    "general": "",
+    "boldText": [""]
+}
+
+export const SCT_BD_CONTENT: ContentLayout = {
+    "title": "Thiếu Đoàn Bạch Đằng",
+    "general": "",
+    "boldText": [""]
+}
+
+export const SCT_VC_CONTENT: ContentLayout = {
+    "title": "Thiếu Đoàn Vân Cừ",
+    "general": "",
+    "boldText": [""]
+}
+
+export const SCT_NBD_CONTENT: ContentLayout = {
+    "title": "Thiếu Đoàn Nữ Bạch Đằng",
+    "general": "",
+    "boldText": [""]
+}
+
+export const VTS_BD_CONTENT: ContentLayout = {
+    "title": "Kha Đoàn Bạch Đằng",
+    "general": "",
+    "boldText": [""]
+}
+
+export const VTS_VC_CONTENT: ContentLayout = {
+    "title": "Kha Đoàn Vân Cừ",
+    "general": "",
+    "boldText": [""]
+}
+
+export const VTS_NBD_CONTENT: ContentLayout = {
+    "title": "Kha Đoàn Nữ Bạch Đằng",
+    "general": "",
+    "boldText": [""]
+}
+
+export const VTS_TN_CONTENT: ContentLayout = {
+    "title": "Kha Đoàn Thủy Nguyên",
+    "general": "",
+    "boldText": [""]
+}
