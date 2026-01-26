@@ -4,23 +4,23 @@ export const DROPDOWN_CONTENT = {
   "Các Ngành": {
     "Ngành Ấu": {
       "default": "/cub",
-      "Sói Bạch Đằng": "/cub-bd",
-      "Sói Vân Cừ": "/cub-vc",
-      "Sói Thủy Nguyên": "/cub-tn",
-      "Sói Nữ Bạch Đằng": "/cub-nbd"
+      "Bầy Bạch Đằng": "/cub-bd",
+      "Bầy Vân Cừ": "/cub-vc",
+      "Bầy Thủy Nguyên": "/cub-tn",
+      "Bầy Nữ Bạch Đằng": "/cub-nbd"
     },
     "Ngành Thiếu": {
       "default": "/sct",
-      "Thiếu Bạch Đằng": "/sct-bd",
-      "Thiếu Vân Cừ": "/sct-vc",
-      "Thiếu Nữ Bạch Đằng": "/sct-nbd"
+      "Thiếu Đoàn Bạch Đằng": "/sct-bd",
+      "Thiếu Đoàn Vân Cừ": "/sct-vc",
+      "Thiếu Đoàn Nữ Bạch Đằng": "/sct-nbd"
     },
     "Ngành Kha": {
       "default": "/vts",
-      "Kha Bạch Đằng": "/vts-bd",
-      "Kha Vân Cừ": "/vts-vc",
-      "Kha Nữ Bạch Đằng": "/vts-nbd",
-      "Kha Thủy Nguyên": "/vts-tn"
+      "Kha Đoàn Bạch Đằng": "/vts-bd",
+      "Kha Đoàn Vân Cừ": "/vts-vc",
+      "Kha Đoàn Nữ Bạch Đằng": "/vts-nbd",
+      "Kha Đoàn Thủy Nguyên": "/vts-tn"
     },
     "Ngành Tráng": "/rvs"
   }
