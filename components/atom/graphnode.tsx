@@ -121,6 +121,8 @@ export function DesktopGraphNode({
 }
 
 import Image from "next/image"
+import { useState } from "react"
+import { Lightbox } from "@/components/atom/lightBox";
 
 type GraphCardProps = {
   title: string
@@ -129,23 +131,34 @@ type GraphCardProps = {
 }
 
 export function GraphCard({ title, img, name }: GraphCardProps) {
+  const [activeImage, setActiveImage] = useState<string | null>(null)
   return (
-    <div className="w-36 sm:w-42 rounded-xl border border-gray-300 bg-white shadow-sm flex flex-col items-center gap-2 px-3 py-4">
-      {img && (
-        <div className="relative h-20 w-20 overflow-hidden rounded-full">
-          <Image
-            src={img}
-            alt={title}
-            fill
-            className="object-cover"
-          />
-        </div>
-      )}
+    <>
+      <div className="w-36 sm:w-42 rounded-xl border border-gray-300 bg-white shadow-sm flex flex-col items-center gap-2 px-3 py-4">
+        {img && (
+          <div className="relative h-20 w-20 overflow-hidden rounded-full">
+            <Image
+              src={img}
+              alt={title}
+              fill={true}
+              sizes="100%"
+              className="object-cover cursor-pointer"
+              onClick={() => setActiveImage(img)}
+            />
+          </div>
+        )}
 
-      <div className="text-center">
-        <p className="font-semibold text-sm">{title}</p>
-        {name && <p className="text-xs text-gray-600">{name}</p>}
+        <div className="text-center">
+          <p className="font-semibold text-sm">{title}</p>
+          {name && <p className="text-xs text-gray-600">{name}</p>}
+        </div>
       </div>
-    </div>
+      {activeImage && (
+        <Lightbox
+          src={activeImage}
+          onClose={() => setActiveImage(null)}
+        />
+      )}
+    </>
   )
 }
