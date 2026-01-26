@@ -1,6 +1,8 @@
 export type GraphStructure = {
     title: string,
-    composed_of?: Array<GraphStructure | string>
+    composed_of?: Array<GraphStructure | string>,
+    img?: string,
+    name?: string
 }
 
 export const STRUCTURE_GRAPH: GraphStructure = {
@@ -38,6 +40,58 @@ export const STRUCTURE_GRAPH: GraphStructure = {
     ]
 }
 
-export const TITLE_GRAPH = {
-
+export const TITLE_GRAPH_FIRST_PART: GraphStructure = {
+    "title": "Đạo Trưởng",
+    "name": "Tr. Võ Quang Nguyên Phổ",
+    "img": "",
+    "composed_of": [
+        {
+            "title": "Đạo Phó",
+            "name": "Tr. Vũ Quang Phúc",
+            "img": ""
+        }, 
+        {
+            "title": "Đạo Phó",
+            "name": "Tr. Trương Văn Minh",
+            "img": ""
+        }, 
+    ]
 }
+
+export const TITLE_GRAPH_SECOND_PART: Array<Array<GraphStructure>> = [
+    [{
+        "title": "Liên Đoàn Trưởng Bạch Đằng",
+        "name": "Tr. Trương Bá Thắng",
+        "img": ""
+    },
+    {
+        "title": "Liên Đoàn Trưởng Nữ Bạch Đằng",
+        "name": "Tr. Nguyễn Thị Hoàng Oanh",
+        "img": ""
+    },
+    {
+        "title": "Liên Đoàn Trưởng Vân Cừ",
+        "name": "Tr. Lê Đức Toàn",
+        "img": ""
+    }],
+    [{
+        "title": "Ủy Viên Ngành Ấu",
+        "name": "Tr. Nguyễn Ngọc Quyên",
+        "img": ""
+    },
+    {
+        "title": "Ủy Viên Ngành Thiếu",
+        "name": "Tr. Nguyễn Lê Khánh Hằng",
+        "img": ""
+    },
+    {
+        "title": "Ủy Viên Ngành Kha",
+        "name": "Tr. Lý Nam",
+        "img": ""
+    },
+    {
+        "title": "Ủy Viên Ngành Tráng",
+        "name": "Tr. Trương Văn Minh",
+        "img": ""
+    }]
+]

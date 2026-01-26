@@ -91,7 +91,7 @@ export function DesktopGraphNode({
       {/* Children */}
       {node.composed_of && (
         <div className="relative grid auto-rows-max gap-y-4">
-          <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gray-300" />
+          <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-primary" />
 
           {node.composed_of.map((child, i) => {
             const childPath = `${path}-${i}`;
@@ -103,7 +103,7 @@ export function DesktopGraphNode({
                 onMouseEnter={() => setActivePath(childPath)}
                 onMouseLeave={() => setActivePath(null)}
               >
-                <div className="h-0.5 bg-gray-300" />
+                <div className="h-0.5 bg-primary" />
 
                 <DesktopGraphNode
                   node={child}
@@ -118,4 +118,34 @@ export function DesktopGraphNode({
       )}
     </div>
   );
+}
+
+import Image from "next/image"
+
+type GraphCardProps = {
+  title: string
+  img?: string
+  name?: string
+}
+
+export function GraphCard({ title, img, name }: GraphCardProps) {
+  return (
+    <div className="w-36 sm:w-42 rounded-xl border border-gray-300 bg-white shadow-sm flex flex-col items-center gap-2 px-3 py-4">
+      {img && (
+        <div className="relative h-20 w-20 overflow-hidden rounded-full">
+          <Image
+            src={img}
+            alt={title}
+            fill
+            className="object-cover"
+          />
+        </div>
+      )}
+
+      <div className="text-center">
+        <p className="font-semibold text-sm">{title}</p>
+        {name && <p className="text-xs text-gray-600">{name}</p>}
+      </div>
+    </div>
+  )
 }
