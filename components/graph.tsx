@@ -50,18 +50,18 @@ export function TitleGraph({ data, data_secondary }: GraphProps) {
           {/* Connector down */}
           {children.length > 0 && (
             <>
-              <div className="h-8 w-px bg-gray-300" />
+              <div className="h-8 w-0.5 bg-primary" />
 
               {/* Children container */}
               <div className="relative flex gap-8">
 
                 {/* Horizontal spine */}
-                <div className="absolute top-0 left-0 right-0 h-px bg-gray-300" />
+                <div className="absolute top-0 left-0 right-0 h-0.5 bg-primary" />
 
                 {children.map((child, i) => (
                   <div key={i} className="flex flex-col items-center">
                     {/* Vertical connector */}
-                    <div className="h-6 w-px bg-gray-300" />
+                    <div className="h-6 w-0.5 bg-primary" />
 
                     {typeof child === "string" ? (
                       <GraphCard title={child} />
