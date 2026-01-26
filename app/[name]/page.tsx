@@ -1,7 +1,10 @@
 import type { Metadata } from 'next'
 import { redirect } from 'next/navigation'
-import { CONTENT_LOADERS, type ContentKey } from '@/constants/registry'
+import { CONTENT_LOADERS, IMAGES_LOADERS, ImagesKey, type ContentKey } from '@/constants/registry'
 import { SpecificBoldParagraphs } from '@/components/atom/specificBoldParagraph'
+import { MasonryGallery } from '@/components/mansory'
+import { MANSONRY_LIST, COMING_SOON } from '@/constants/util'
+import { ComingSoon } from '@/app/_util_section/commingSoon'
 
 type Props = {
   params: Promise<{ name: string }>
@@ -28,12 +31,22 @@ export async function generateMetadata(
 export default async function NameHome({ params }: Props) {
   const { name } = await params
 
+  if (COMING_SOON.includes(name)) {
+    return (
+      <ComingSoon/>
+    )
+  }
+
   if (!(name in CONTENT_LOADERS)) {
     redirect('/')
   }
 
   const content = await CONTENT_LOADERS[name as ContentKey]()
   const paragraphs = content.general.split("\n")
+  let images: string[] | null = null
+  if (MANSONRY_LIST.includes(name)) {
+    images = await IMAGES_LOADERS[name as ImagesKey]()
+  }
 
   return (
     <div className="px-14 py-8 max-w-6xl mx-auto">
@@ -43,6 +56,9 @@ export default async function NameHome({ params }: Props) {
           {paragraphs.map((paragraph, index) => (
             <SpecificBoldParagraphs text={paragraph} boldText={content.boldText} key={index}/>
           ))}
+          { MANSONRY_LIST.includes(name) && images !== null && (
+            <MasonryGallery images={images}/>
+          )}
         </div>
       </div>
     </div>
