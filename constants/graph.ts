@@ -60,24 +60,24 @@ export const TITLE_GRAPH_FIRST_PART: GraphStructure = {
 
 export const TITLE_GRAPH_SECOND_PART: Array<Array<GraphStructure>> = [
     [{
-        "title": "Liên Đoàn Trưởng Bạch Đằng",
+        "title": "Liên đoàn Trưởng Bạch Đằng",
         "name": "Tr. Trương Bá Thắng",
         "img": ""
     },
     {
-        "title": "Liên Đoàn Trưởng Nữ Bạch Đằng",
+        "title": "Liên đoàn Trưởng Nữ Bạch Đằng",
         "name": "Tr. Nguyễn Thị Hoàng Oanh",
         "img": "/ntho.jpg"
     },
     {
-        "title": "Liên Đoàn Trưởng Vân Cừ",
+        "title": "Liên đoàn Trưởng Vân Cừ",
         "name": "Tr. Lê Đức Toàn",
         "img": ""
     }],
     [{
         "title": "Ủy Viên Ngành Ấu",
         "name": "Tr. Nguyễn Ngọc Quyên",
-        "img": ""
+        "img": "/nnq.jpg"
     },
     {
         "title": "Ủy Viên Ngành Thiếu",

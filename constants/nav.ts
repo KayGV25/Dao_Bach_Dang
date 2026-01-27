@@ -11,16 +11,16 @@ export const DROPDOWN_CONTENT = {
     },
     "Ngành Thiếu": {
       "default": "/sct",
-      "Thiếu Đoàn Bạch Đằng": "/sct_bd",
-      "Thiếu Đoàn Vân Cừ": "/sct_vc",
-      "Thiếu Đoàn Nữ Bạch Đằng": "/sct_nbd"
+      "Thiếu đoàn Bạch Đằng": "/sct_bd",
+      "Thiếu đoàn Vân Cừ": "/sct_vc",
+      "Thiếu đoàn Nữ Bạch Đằng": "/sct_nbd"
     },
     "Ngành Kha": {
       "default": "/vts",
-      "Kha Đoàn Bạch Đằng": "/vts_bd",
-      "Kha Đoàn Vân Cừ": "/vts_vc",
-      "Kha Đoàn Nữ Bạch Đằng": "/vts_nbd",
-      "Kha Đoàn Thủy Nguyên": "/vts_tn"
+      "Kha đoàn Bạch Đằng": "/vts_bd",
+      "Kha đoàn Vân Cừ": "/vts_vc",
+      "Kha đoàn Nữ Bạch Đằng": "/vts_nbd",
+      "Kha đoàn Thủy Nguyên": "/vts_tn"
     },
     "Ngành Tráng": "/rvs"
   }
