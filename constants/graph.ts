@@ -43,7 +43,7 @@ export const STRUCTURE_GRAPH: GraphStructure = {
 export const TITLE_GRAPH_FIRST_PART: GraphStructure = {
     "title": "Đạo Trưởng",
     "name": "Tr. Võ Quang Nguyên Phổ",
-    "img": "",
+    "img": "/vqnp.jpg",
     "composed_of": [
         {
             "title": "Đạo Phó",
@@ -53,7 +53,7 @@ export const TITLE_GRAPH_FIRST_PART: GraphStructure = {
         {
             "title": "Đạo Phó",
             "name": "Tr. Trương Văn Minh",
-            "img": ""
+            "img": "/tvm.jpg"
         }, 
     ]
 }
@@ -62,7 +62,7 @@ export const TITLE_GRAPH_SECOND_PART: Array<Array<GraphStructure>> = [
     [{
         "title": "Liên đoàn Trưởng Bạch Đằng",
         "name": "Tr. Trương Bá Thắng",
-        "img": ""
+        "img": "/tbt.jpg"
     },
     {
         "title": "Liên đoàn Trưởng Nữ Bạch Đằng",
@@ -72,7 +72,7 @@ export const TITLE_GRAPH_SECOND_PART: Array<Array<GraphStructure>> = [
     {
         "title": "Liên đoàn Trưởng Vân Cừ",
         "name": "Tr. Lê Đức Toàn",
-        "img": ""
+        "img": "/ldt.jpg"
     }],
     [{
         "title": "Ủy Viên Ngành Ấu",
@@ -87,11 +87,11 @@ export const TITLE_GRAPH_SECOND_PART: Array<Array<GraphStructure>> = [
     {
         "title": "Ủy Viên Ngành Kha",
         "name": "Tr. Lý Nam",
-        "img": ""
+        "img": "/ln.jpg"
     },
     {
         "title": "Ủy Viên Ngành Tráng",
         "name": "Tr. Trương Văn Minh",
-        "img": ""
+        "img": "/tvm.jpg"
     }]
 ]
