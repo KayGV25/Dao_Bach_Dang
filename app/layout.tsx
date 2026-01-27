@@ -47,7 +47,7 @@ export default function RootLayout({
           <div className="flex flex-col gap-4">
             <Link href="https://maps.app.goo.gl/kaDR5Xo2ZVKxZVeR6" target="_blank" className="flex gap-2">
               <FaLocationArrow   className="self-center"/>
-              <span>Khu B Công viên Hoàng Văn Thụ, Đ. Hoàng Văn Thụ Đ. Trần Quốc Hoàn, Phường 2, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</span>
+              <span>Khu B - Công viên Hoàng Văn Thụ, Phường 2, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</span>
             </Link>
             <Link href="https://www.facebook.com/daobachdangofficial" target="_blank" className="flex gap-2">
               <FaFacebook className="self-center"/>
