@@ -2,6 +2,8 @@ export const MANSONRY_LIST = [
     "rvs",
     "cub",
     "vts_bd",
+    "vts_vc",
+    "vts_tn",
     "sct_vc",
     "sct_nbd",
     "sct_bd"
@@ -16,7 +18,7 @@ export const COMING_SOON = [
     // "sct_vc",
     // "sct_nbd",
     // "vts_bd",
-    "vts_vc",
+    // "vts_vc",
     "vts_nbd",
-    "vts_tn",
+    // "vts_tn",
 ]
