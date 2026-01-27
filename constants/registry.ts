@@ -23,6 +23,7 @@ export const IMAGES_LOADERS = {
   cub: async () => (await import('./images')).CUB_IMAGES,
   sct_nbd: async () => (await import('./images')).SCT_NBD_IMAGES,
   sct_vc: async () => (await import('./images')).SCT_VC_IMAGES,
+  sct_bd: async () => (await import('./images')).SCT_BD_IMAGES,
   vts_bd: async () => (await import('./images')).VTS_BD_IMAGES,
 }
 
