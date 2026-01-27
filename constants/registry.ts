@@ -25,6 +25,8 @@ export const IMAGES_LOADERS = {
   sct_vc: async () => (await import('./images')).SCT_VC_IMAGES,
   sct_bd: async () => (await import('./images')).SCT_BD_IMAGES,
   vts_bd: async () => (await import('./images')).VTS_BD_IMAGES,
+  vts_vc: async () => (await import('./images')).VTS_VC_IMAGES,
+  vts_tn: async () => (await import('./images')).VTS_TN_IMAGES,
 }
 
 export type ImagesKey = keyof typeof IMAGES_LOADERS

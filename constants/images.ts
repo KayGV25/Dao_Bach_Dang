@@ -177,25 +177,9 @@ export const SCT_BD_IMAGES = [
 ]
 
 export const VTS_BD_IMAGES = [
-    "/VTS_BD/20250725_152226.jpg",
-    "/VTS_BD/521468827_1275110027297782_6846394076383206405_n.jpg",
-    "/VTS_BD/523802810_760346523046908_8272191632097780203_n.jpg",
-    "/VTS_BD/553053561_1902030674081107_7394288424137664068_n.jpg",
-    "/VTS_BD/att.-TVVJi-iAhXyWh04xy84VLNzVH48YCV-IBVwbcVuAPg.jpg",
+    "/VTS_BD/588108709_1527000908424692_1560252315132708094_n.jpg",
     "/VTS_BD/att.98eG0r9ziUzhYvHCSe9FOpg2NnFH9mjSuEWFjDu_rzA.jpg",
-    "/VTS_BD/att.bGvIByYMakDREVkhtCzTeK_E0-cvZ-aILnJGF_YGpfU.jpg",
-    "/VTS_BD/att.djxtmbhI-6-zmVFy-X09ebvTRV5kt7d_3XSCTQup9ow.jpg",
-    "/VTS_BD/att.m96q8p_NSSOeAgSCOOYy7zIokyfR8kJXuDOv7EgXKXw.jpg",
     "/VTS_BD/att.o794SWsgku0agropx39IV1DPXzuR4EhQQfoCxE01seg.jpg",
-    "/VTS_BD/att.poDHPwEGYRJMpvMRcMV38U_Lzos-fyKwktmtmMr8PyY.jpg",
-    "/VTS_BD/att.QO8XgmaOS-gzchtzCSat2bSVCVyBiGeR0Q2XiadL3UU.jpg",
-    "/VTS_BD/att.Uau1Mg4BPIbfcKaGlqvWx0HQYbojmpy7pJOYpAfNCDY.jpg",
-    "/VTS_BD/att.uiFocupvtzr_QmYrZriyzOAQLbnTiNIbI7pEYchSrmw.jpg",
-    "/VTS_BD/att.ukVgJVLl1nTEsOWxaTssKrwKyXxzzHWcoQryzpm1VpI.jpg",
-    "/VTS_BD/att.VPE53Obc-MKXsfdxdvc1qvZtfKixCqzDvhKgc0JVCB8.jpg",
-    "/VTS_BD/att.vx2-6e5D385_PiddjDDRSkKKOQtYuZwxC0yRfkQMYZs.jpg",
-    "/VTS_BD/att.XTXtLl1ex9ClAFqVphBU2tjk4EiSNiRkaIp2g7pxitY.jpg",
-    "/VTS_BD/att.y-I1PvoR8sl04DDVJgaCI9ezB7XwOgykh8OcVGD50pM.jpg",
     "/VTS_BD/IMG_0322.jpg",
     "/VTS_BD/IMG_0326.jpg",
     "/VTS_BD/IMG_0670.jpg",
@@ -210,5 +194,49 @@ export const VTS_BD_IMAGES = [
     "/VTS_BD/IMG_1881.JPG",
     "/VTS_BD/IMG_1882.JPG",
     "/VTS_BD/IMG_1883.JPG",
-    "/VTS_BD/IMG_2366.JPG"
+    "/VTS_BD/z6976684937186_05bc288102e4dbda1b982edfd6d243da.jpg",
+    "/VTS_BD/z6976685260114_22515a14d8804aa67f880b34aebf42d5.jpg",
+    "/VTS_BD/z6976685289486_123103a03b19352fb0077c3187d1e2b3.jpg",
+    "/VTS_BD/z6976685304033_9cac3b312763309571b4515e1f0467b6.jpg",
+    "/VTS_BD/z6976685320017_33bdae13b92bb7d64f0d6dfba253cca0.jpg"
+]
+
+export const VTS_VC_IMAGES = [
+    "/VTS_VC/20260111_101243.jpg",
+    "/VTS_VC/att.-TVVJi-iAhXyWh04xy84VLNzVH48YCV-IBVwbcVuAPg.jpg",
+    "/VTS_VC/att.bGvIByYMakDREVkhtCzTeK_E0-cvZ-aILnJGF_YGpfU.jpg",
+    "/VTS_VC/att.djxtmbhI-6-zmVFy-X09ebvTRV5kt7d_3XSCTQup9ow.jpg",
+    "/VTS_VC/att.m96q8p_NSSOeAgSCOOYy7zIokyfR8kJXuDOv7EgXKXw.jpg",
+    "/VTS_VC/att.poDHPwEGYRJMpvMRcMV38U_Lzos-fyKwktmtmMr8PyY.jpg",
+    "/VTS_VC/att.QO8XgmaOS-gzchtzCSat2bSVCVyBiGeR0Q2XiadL3UU.jpg",
+    "/VTS_VC/att.Uau1Mg4BPIbfcKaGlqvWx0HQYbojmpy7pJOYpAfNCDY.jpg",
+    "/VTS_VC/att.uiFocupvtzr_QmYrZriyzOAQLbnTiNIbI7pEYchSrmw.jpg",
+    "/VTS_VC/att.ukVgJVLl1nTEsOWxaTssKrwKyXxzzHWcoQryzpm1VpI.jpg",
+    "/VTS_VC/att.VPE53Obc-MKXsfdxdvc1qvZtfKixCqzDvhKgc0JVCB8.jpg",
+    "/VTS_VC/att.vx2-6e5D385_PiddjDDRSkKKOQtYuZwxC0yRfkQMYZs.jpg",
+    "/VTS_VC/att.XTXtLl1ex9ClAFqVphBU2tjk4EiSNiRkaIp2g7pxitY.jpg",
+    "/VTS_VC/att.y-I1PvoR8sl04DDVJgaCI9ezB7XwOgykh8OcVGD50pM.jpg",
+    "/VTS_VC/IMG_2366.JPG"
+]
+
+export const VTS_TN_IMAGES = [
+    "/VTS_TN/20250725_152226.jpg",
+    "/VTS_TN/20251109_104618.jpg",
+    "/VTS_TN/20251109_155430.jpg",
+    "/VTS_TN/20251109_155449.jpg",
+    "/VTS_TN/20251109_155513.jpg",
+    "/VTS_TN/20251109_160522.jpg",
+    "/VTS_TN/20251228_113301.jpg",
+    "/VTS_TN/20260125_094441.jpg",
+    "/VTS_TN/521468827_1275110027297782_6846394076383206405_n.jpg",
+    "/VTS_TN/523802810_760346523046908_8272191632097780203_n.jpg",
+    "/VTS_TN/553053561_1902030674081107_7394288424137664068_n.jpg",
+    "/VTS_TN/592231797_1339289110839476_8948053335961850850_n.jpg",
+    "/VTS_TN/IMG_5101.jpg",
+    "/VTS_TN/IMG_5122.jpg",
+    "/VTS_TN/z6974255617321_2027a712b4a17d32b48fcbfb01da52be.jpg",
+    "/VTS_TN/z6974255654625_42ddc7ab3b1d01781e45ab35153fba0a.jpg",
+    "/VTS_TN/z6974255663800_2078697a39cc24a4f92ecb6122001841.jpg",
+    "/VTS_TN/z6974255820166_e9cec3950902aa59a3c2817aa14d48a5.jpg",
+    "/VTS_TN/z6976693682204_39baa2fdf896dfb804c1698f4b572dc1.jpg"
 ]
