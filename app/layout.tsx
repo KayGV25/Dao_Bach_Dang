@@ -35,6 +35,7 @@ export default function RootLayout({
     <html lang="vi">
       <head>
         <meta name="apple-mobile-web-app-title" content="Đạo Bạch Đằng" />
+        <meta name="google-site-verification" content="hvN2a2Y9DDlarXiht0RqmaOxmGw0q-fdUmYkg9zfjr8" />
       </head>
       <body
         suppressHydrationWarning
