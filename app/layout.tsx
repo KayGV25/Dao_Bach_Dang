@@ -48,17 +48,17 @@ export default function RootLayout({
           </div>
         </main>
         <footer className="w-full bg-primary px-8 py-4 flex justify-start text-white text-xs">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-1">
             <Link href="https://maps.app.goo.gl/kaDR5Xo2ZVKxZVeR6" target="_blank" className="flex gap-2">
-              <FaLocationArrow   className="self-center"/>
+              <FaLocationArrow className="self-center size-2"/>
               <span>Khu B - Công viên Hoàng Văn Thụ, Phường 2, Tân Bình, Thành phố Hồ Chí Minh, Việt Nam</span>
             </Link>
             <Link href="https://www.facebook.com/daobachdangofficial" target="_blank" className="flex gap-2">
-              <FaFacebook className="self-center"/>
+              <FaFacebook className="self-center size-2"/>
               <span>Page Đạo Bạch Đằng</span>
             </Link>
             <div className="flex gap-2">
-              <IoTime className="self-center"/>
+              <IoTime className="self-center size-2"/>
               <span>Thời gian hoạt động: 8:30 - 11h30, Chủ Nhật hằng tuần</span>
             </div>
           </div>
