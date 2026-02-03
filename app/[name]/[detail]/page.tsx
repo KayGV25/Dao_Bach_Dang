@@ -11,14 +11,20 @@ import { ComingSoon } from "@/app/_util_section/commingSoon";
 import { SpecificBoldParagraphs } from "@/components/atom/specificBoldParagraph";
 
 type Props = {
-  params: Promise<{ detail: string }>;
+  params: Promise<{ name: string, detail: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { detail } = await params;
+  const { name, detail } = await params;
   const content = await CONTENT_LOADERS[detail as ContentKey]();
+  const url = `https://yourdomain.com/${name}/${detail}`
+
   return {
     title: content.title,
+    openGraph: {
+      url,
+      type: "article", 
+    }
   };
 }
 

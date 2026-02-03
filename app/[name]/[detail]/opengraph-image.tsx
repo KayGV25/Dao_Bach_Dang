@@ -1,7 +1,6 @@
 import { ImageResponse } from "next/og"
 import { CONTENT_LOADERS, ContentKey} from "@/constants/registry"
 import { COMING_SOON } from "@/constants/util";
-import { ComingSoon } from "@/app/_util_section/commingSoon";
 
 export const size = {
   width: 1200,

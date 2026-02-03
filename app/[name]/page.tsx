@@ -14,6 +14,7 @@ export async function generateMetadata(
   { params }: Props
 ): Promise<Metadata> {
   const { name } = await params
+  const url = `https://yourdomain.com/${name}`
 
   if (!(name in CONTENT_LOADERS)) {
     return {
@@ -25,6 +26,10 @@ export async function generateMetadata(
 
   return {
     title: content.title,
+    openGraph: {
+      url,
+      type: "article", 
+    }
   }
 }
 
