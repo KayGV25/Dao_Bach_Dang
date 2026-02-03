@@ -25,6 +25,11 @@ export const metadata: Metadata = {
     template: "%s | Đạo Bạch Đằng"
   },
   description: "Trang web giới thiệu về Đạo Bạch Đằng",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -37,6 +42,7 @@ export default function RootLayout({
       <head>
         <meta name="apple-mobile-web-app-title" content="Đạo Bạch Đằng" />
         <meta name="google-site-verification" content="hvN2a2Y9DDlarXiht0RqmaOxmGw0q-fdUmYkg9zfjr8" />
+        <meta property="og:logo" content="your value" />
       </head>
       <body
         suppressHydrationWarning
