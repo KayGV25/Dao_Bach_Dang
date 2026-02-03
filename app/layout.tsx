@@ -5,6 +5,7 @@ import { NavBar } from '@/components/navbar';
 import { FaLocationArrow } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { IoTime } from "react-icons/io5";
+import { Analytics } from "@vercel/analytics/next"
 
 import Link from "next/link";
 
@@ -63,6 +64,7 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
